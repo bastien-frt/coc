@@ -206,7 +206,8 @@ body
 
 
 /*bonton discord*/
-.bdiscord{
+
+/*.bdiscord{
 
  display: inline-block;
  background-image: url("C:\Users\PC Jef\Desktop\projet site coc\html\lopkdiscddef.png") ;
@@ -232,5 +233,16 @@ background-repeat:no-repeat;
 }
 .bdiscord:hover {
   background-color: black;
+}*/
+
+.bdiscord {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+  width: 300px;
 }
 
